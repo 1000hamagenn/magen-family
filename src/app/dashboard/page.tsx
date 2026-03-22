@@ -9,7 +9,7 @@ import {
   Info, Crown, Settings, Share2, Siren, Navigation, Phone, 
   Bell, Lock, Home, MessageCircle, Send
 } from 'lucide-react';
-import dynamic from 'next/dynamic';
+const MapComponent = () => <div className="h-64 w-full bg-gray-800">המפה בטעינה...</div>;
 import { Dialog, Transition } from '@headlessui/react';
 import { Fragment } from 'react';
 
